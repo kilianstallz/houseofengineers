@@ -46,6 +46,7 @@
           <nuxt-link
             to="/shop"
             class="inline-block text-sm px-4 py-2 leading-none rounded bg-primary text-white"
+            @click.native="closeMenu"
           >Tickets kaufen</nuxt-link>
         </div>
         <div
@@ -56,10 +57,12 @@
             <nuxt-link
               to="/"
               class="block mt-4 lg:inline-block lg:mt-0 hover:text-blue-500 mr-4"
+              @click.native="closeMenu"
             >Willkommen</nuxt-link>
             <nuxt-link
               to="/#event"
               class="block mt-4 lg:inline-block lg:mt-0 hover:text-blue-500 mr-4"
+              @click.native="closeMenu"
             >Event</nuxt-link>
             <!-- <nuxt-link
               to="/#cashless"
@@ -68,20 +71,24 @@
             <nuxt-link
               to="/#media"
               class="block mt-4 lg:inline-block lg:mt-0 hover:text-blue-500 mr-4"
+              @click.native="closeMenu"
             >Media</nuxt-link>
             <nuxt-link
               to="/#travel"
               class="block mt-4 lg:inline-block lg:mt-0 hover:text-blue-500 mr-4"
+              @click.native="closeMenu"
             >Anreise</nuxt-link>
             <nuxt-link
               to="/sponsors"
               class="block mt-4 lg:inline-block lg:mt-0 hover:text-blue-500 mr-4"
+              @click.native="closeMenu"
             >Sponsoren</nuxt-link>
           </div>
           <div class="flex flex-col lg:flex-row items-start lg:items-center lg:my-none">
             <nuxt-link
               to="/shop"
               class="inline-block text-sm px-4 lg:mr-4 py-2 leading-none border rounded hover:border-blue-500 hover:text-white hover:bg-blue-500 mt-4 lg:mt-0"
+              @click.native="closeMenu"
             >Tickets kaufen</nuxt-link>
             <div class="flex mt-4 lg:mt-0">
               <a href="https://instagram.com/houseofengineers" class="social-icons mr-4">
@@ -142,6 +149,11 @@ export default {
   data: () => ({
     showNav: false
   }),
+  methods: {
+    closeMenu() {
+      this.showNav = false
+    }
+  },
   mounted() {
     // Animation Observer
     const toAnimate = document.querySelectorAll('.animate')
