@@ -1,0 +1,8 @@
+{
+	"short_name": "House of Engineers",
+	"name": "House of Engineers",
+	"start_url": "/",
+	"display": "browser",
+	"gcm_sender_id": "103953800507",
+	"theme_color": "#292A2E"
+}

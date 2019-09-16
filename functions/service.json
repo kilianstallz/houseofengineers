@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "house-of-engineers",
+  "private_key_id": "06064897a11efa7309d49f54d0a72ed66e6030d6",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEuwIBADANBgkqhkiG9w0BAQEFAASCBKUwggShAgEAAoIBAQDZh/0ySUs2dJmU\n0LwVVuBotPuqx5TmmFVyiHIxrclcx5Y8OIFDdxRVk0G9vrDczJAVGLIFGsX+LJdb\nEjPkLE7iLMrBz3c8/IY3vJwQL8ULssoL3M711krYm+wSkqqBNilGp4ZN6CQnkdFr\ncbTT3ecJdeMqTz02kQjXP2tKeOHqkHk1wV6sBXbAljAjIxtyQobXLBQfkC8F4OkX\nY2gDLDILhehripLHAN5gtE5AWATYYFsZ1S6O3jAHpGvNbujqn7DiQ7NgQdXYDYng\nS3lu6QAcy6rZHTOlW6sMzSahkK5mwgN1EwyLTo+rwPb8gN0YYTwGWumrN6OqS/Hv\nQXX3lBldAgMBAAECgf8BRAYKKGvFS2UFHV3Vg1/tYdnAIU/0f/Zgd2aqmoQcwwxc\nt1RP73LyRo0Aaz3DJ8DgUT7Hgdgww621Rrzr845pnY62XFTtTo8486z4jiYUK6zO\nWalL361mlr34hEq3TWgZpkwniPRg7oRD6lS98AnuzYvCzGF9NXVv6PJ+8bbpyb9u\nyqIB3sXuRUBP7wXTusR1vW6l9K/hhxFddzzJe1CXp2WQ3KY++O6mdWS0MoE1P4qW\nofTxhf5zSYXzS4MubUhadzbLVmmgDdhVoowYu34ei/ZdM88NZcIoY28e8piLPyBu\nYmAJcX2GDuNklO3DvUJ+xoFOk7noxWyONa/tXOECgYEA8tWpUxs3WWrZoQ9O0PR9\ne6VCLzR+sAGWdPlKja519i1G7K3hoe5dlk9tdRgWQrWT9tG5xbtLZM4QeUgTq2Dn\nQyLz0Zx/VDKHJy7TMowbaeGidahqpfuJkhBDNYtKlT8aXB5bnnUK9/8GBXekD/MM\nBwajd8jmPc41WoCkvRtuV4UCgYEA5VMjRWeXtqRdtlpJhB6NlbpWkApEzgKYwuYs\nc03dyBNkg8XaUP6cGOByLbHw9QzsPo3aQ0bfeiDDFdbkv33SrvM0db9UY604NWnn\nYAtYza5PwZykALSqs+r/zLvg1IlpsT0981nVLxA+kKtcfFmt6jSbTd+ntnHdQAcZ\nSX1L5fkCgYEA5kQm4RCAxsCkh65dXZVJXDMT9HFB5KJMyrUNthYF859xjsM/nu7K\nPdspfwyNJ0rJeRXcpBx7XKZuRqNLS4qDIU2GiHBu6SdUs5oaWOc0o417ITjHkIda\nJ3BWWvKvkaCZ3VpIJJT2Br4ENrEBmMIu2Ia6Ab82XMsqGpy8GjplwoUCgYAlwKMM\n2PoD6lk3HPP/WRxL6uo3OkmLdKf7ZfMpZEc/mdmxS9AeB1xhSAnj9ehKHz+BKM8m\nxjMiIuSa4s6zq54UiRs4yy+0XR7kxDN//z42VhzxLb1eFGAJ0IUeCkwAEUMiF4fs\nWPyci9sQ6/UEz6qu5MwwbMJqaaJX2RNTotns2QKBgFzVy9BQ3Kmo+yUfjsm9oJMx\nzAb+4UBIJrU8jfO3muvjapEDMt44Pvj8X4na5YN9om6WX1g7RAooP9aUT0h/NjBn\n1VlgbjG9ikRTjNeRwE7MOyKsv/sfaHGaIFQjtHvznZy4ENJtnd9eWNddyqblUAq7\nrmJIjfzbpjndY6s0NV97\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-2efar@house-of-engineers.iam.gserviceaccount.com",
+  "client_id": "112372884861028200090",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-2efar%40house-of-engineers.iam.gserviceaccount.com"
+}
