@@ -111,9 +111,9 @@
           </div>
         </div>
     </section>-->
-    <section id="media" class="py-24 lg:py-32" data-once="true">
-      <div class="grid-media">
-        <div class="w-full flex flex-col my-auto bg-dark rounded p-8 shadow-lg">
+    <section id="media" class="py-24 lg:py-32">
+      <div class="flex flex-col md:flex-row">
+        <div class="w-full flex flex-col my-auto bg-dark rounded p-8 md:mr-2 shadow-lg">
           <div class="text-center">
             <h4 class="text-primary text-lg mb-2 text-center">Folge uns auf Social Media</h4>
             <h4 class="text-white text-2xl mb-6 text-center">für Gewinnspiele & aktuelle News</h4>
@@ -147,10 +147,9 @@
             </button>
           </div>
         </div>
-        <div class="flex justify-center">
+        <div class="hidden lg:flex justify-center">
           <blockquote
             class="instagram-media shadow-2xl"
-            data-instgrm-captioned
             data-instgrm-permalink="https://www.instagram.com/p/B1OGMc4gSYh/"
             data-instgrm-version="12"
             style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"
@@ -258,7 +257,7 @@
       </div>
     </section>
     <section id="travel" style="min-height: 60vh;" class="py-24 pt-32">
-      <div class="flex flex-col mb-12 text-right">
+      <div class="flex flex-col lg:flex-row mb-12 text-right">
         <h2 class="text-4xl text-white">Anreise</h2>
         <hr style="width: 62px;" class="mr-0 mb-4" />
         <p class="text-gray-400 text-right w-full">
@@ -324,12 +323,6 @@ a:hover {
 .flex-bg {
   height: 100vh;
 }
-.grid-media {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: auto;
-  grid-gap: 14px;
-}
 @media (max-width: 599px) {
   .logo {
     width: 80%;
@@ -339,9 +332,6 @@ a:hover {
 @media (max-width: 1024px) {
   .flex-bg {
     height: 100vh;
-  }
-  .grid-media {
-    grid-template-columns: 1fr;
   }
 }
 </style>
