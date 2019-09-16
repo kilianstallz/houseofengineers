@@ -8,8 +8,8 @@ admin.initializeApp({
   databaseURL: 'https://house-of-engineers.firebaseio.com'
 })
 
-// const stripe = new Stripe('sk_test_EzVhjZKuf0puuYqKoFCuPN0f002G8C6ehd')
-const stripe = new Stripe(process.env.STRIPE_PRIV)
+// const stripe = new Stripe(process.env.STRIPE_SECRET_TEST)
+const stripe = new Stripe(process.env.SECRET)
 
 const express = require('express')
 const app = express()
