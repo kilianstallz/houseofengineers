@@ -3,7 +3,6 @@ export default {
   /*
    ** Headers of the page
    */
-  buildDir: './dist',
   head: {
     title: 'House of Engineers',
     meta: [
