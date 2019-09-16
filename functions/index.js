@@ -9,7 +9,7 @@ admin.initializeApp({
 })
 
 // const stripe = new Stripe('sk_test_EzVhjZKuf0puuYqKoFCuPN0f002G8C6ehd')
-const stripe = new Stripe('sk_live_6Zmth6lpnPSH3NzKfN1LbzbD00hSQxo9G0')
+const stripe = new Stripe(process.env.STRIPE_PRIV)
 
 const express = require('express')
 const app = express()
