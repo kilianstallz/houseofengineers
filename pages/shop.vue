@@ -1,10 +1,14 @@
 <template>
   <main class="pt-40">
     <h3 class="text-xl text-white mb-4">Tickets bestellen</h3>
-    <section class="bg-white p-12 pt-20 rounded-sm">
+    <section class="bg-white p-4 lg:p-12 pt-20 rounded-sm">
       <form action="/charge" method="post" id="payment-form" class="flex flex-col lg:flex-row">
         <div class="flex flex-col lg:w-1/2 items-center">
-          <img style="width: 270px; height: 250px;" src="~/assets/logo.png" class="bg-black p-12" />
+          <img
+            style="width: 270px; max-height: 250px; height: auto; "
+            src="~/assets/logo.png"
+            class="bg-black p-12"
+          />
           <label class="py-4">Eintrittskarte Stehplatz 17€</label>
           <input
             v-model="anzahl"
@@ -41,7 +45,7 @@
             </div>
           </div>
         </div>
-        <div class="flex flex-col lg:mt-none lg:w-1/2">
+        <div class="flex flex-col mt-6 px-0 lg:mt-none lg:mt-none lg:w-1/2">
           <input
             v-model="vorname"
             type="text"
@@ -108,7 +112,7 @@
         </div>
       </form>
     </section>
-    <section class="mt-4 bg-white p-12 rounded-sm">
+    <section class="mt-4 bg-white p-4 lg:p-12 rounded-sm">
       <h3 class="text-2xl">Reservierungen</h3>
       <p>Sitzplätze können nur von Mitgliedern des Ballkommitees reserviert und erworben werden.</p>
       <p></p>
