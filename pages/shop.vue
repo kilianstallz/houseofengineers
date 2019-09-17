@@ -41,7 +41,7 @@
             </div>
             <div class="flex justify-between flex-row">
               <span>davon Mehrwertsteuer:</span>
-              <span>20%</span>
+              <span>0%</span>
             </div>
           </div>
         </div>
