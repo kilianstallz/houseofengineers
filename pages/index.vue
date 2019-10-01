@@ -150,13 +150,13 @@
         <div class="hidden lg:flex justify-center">
           <blockquote
             class="instagram-media shadow-2xl"
-            data-instgrm-permalink="https://www.instagram.com/p/B1OGMc4gSYh/"
+            data-instgrm-permalink="https://www.instagram.com/p/B205okQIYwt/?utm_source=ig_embed&amp;utm_campaign=loading"
             data-instgrm-version="12"
             style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"
           >
             <div style="padding:16px;">
               <a
-                href="https://www.instagram.com/p/B1OGMc4gSYh/"
+                href="https://www.instagram.com/p/B205okQIYwt/?utm_source=ig_embed&amp;utm_campaign=loading"
                 style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;"
                 target="_blank"
               >
@@ -177,7 +177,14 @@
                 </div>
                 <div style="padding: 19% 0;"></div>
                 <div style="display:block; height:50px; margin:0 auto 12px; width:50px;">
-                  <svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1">
+                  <svg
+                    width="50px"
+                    height="50px"
+                    viewBox="0 0 60 60"
+                    version="1.1"
+                    xmlns="https://www.w3.org/2000/svg"
+                    xmlns:xlink="https://www.w3.org/1999/xlink"
+                  >
                     <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                       <g transform="translate(-511.000000, -20.000000)" fill="#000000">
                         <g>
@@ -229,30 +236,33 @@
                     ></div>
                   </div>
                 </div>
+                <div
+                  style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"
+                >
+                  <div
+                    style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"
+                  ></div>
+                  <div
+                    style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"
+                  ></div>
+                </div>
               </a>
-              <p style=" margin:8px 0 0 0; padding:0 4px;">
-                <a
-                  href="https://www.instagram.com/p/B1OGMc4gSYh/"
-                  style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;"
-                  target="_blank"
-                >Nach einem Jahr warten ist es nun wieder so weit! Die Schüler der HTL Wels laden nun wieder zu ihrem Maturaball. Ein festlicher Ballsaal und die heftigste Mainstage der Maturaball Geschichte powered by Zwisl erwarten Schüler, Familien und Partybegeisterte am diesjährigen Maturaball der HTL Wels. 📣🎉🎉 WO: Messehallen 20-21, Messe Wels WANN: 09.11.2019 19:00 Einlass ab 16 Jahren Amtlicher Lichtbildausweis erforderlich!</a>
-              </p>
               <p
                 style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"
               >
-                Ein Beitrag geteilt von
                 <a
-                  href="https://www.instagram.com/houseofengineers/"
-                  style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px;"
+                  href="https://www.instagram.com/p/B205okQIYwt/?utm_source=ig_embed&amp;utm_campaign=loading"
+                  style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;"
                   target="_blank"
-                >Maturaball der HTL Wels</a> (@houseofengineers) am
+                >Ein Beitrag geteilt von Maturaball der HTL Wels (@houseofengineers)</a> am
                 <time
                   style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;"
-                  datetime="2019-08-16T09:43:38+00:00"
-                >Aug 16, 2019 um 2:43 PDT</time>
+                  datetime="2019-09-25T07:55:39+00:00"
+                >Sep 25, 2019 um 12:55 PDT</time>
               </p>
             </div>
           </blockquote>
+          <script async src="//www.instagram.com/embed.js"></script>
         </div>
       </div>
     </section>
