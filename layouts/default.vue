@@ -5,7 +5,7 @@
       class="flex bg-surface pt-2 px-2 lg:pt-6"
     >
       <nav
-        class="w-full mx-auto flex items-center justify-between flex-wrap bg-white layout p-6 lg:mt-4 shadow-lg rounded"
+        class="w-full mx-auto flex items-center justify-between flex-wrap bg-white layout p-6 lg:mt-4 shadow-lg"
       >
         <div class="w-full flex flex-row items-center lg:hidden">
           <button
@@ -23,29 +23,9 @@
           </button>
           <div style="flex-grow: 1;"></div>
 
-          <a
-            href="https://instagram.com/houseofengineers"
-            class="hidden lg:block social-icons mr-4 text-gray-500"
-          >
-            <img
-              style="height: 24px; width: auto;"
-              src="~/assets/instagram-seeklogo.com.svg"
-              alt="Instagram"
-            />
-          </a>
-          <a
-            href="https://www.facebook.com/House-of-Engineers-Maturaball-HTL-Wels-110862703604570"
-            class="hidden lg:block social-icons"
-          >
-            <img
-              style="height: 24px; width: auto;"
-              src="~/assets/f_logo_RGB-Grey_58.png"
-              alt="Facebook"
-            />
-          </a>
           <nuxt-link
             to="/shop"
-            class="inline-block text-sm px-4 py-2 leading-none rounded bg-primary text-white"
+            class="inline-block text-sm px-4 py-2 leading-none"
             @click.native="closeMenu"
           >Tickets kaufen</nuxt-link>
         </div>
@@ -87,28 +67,10 @@
           <div class="flex flex-col lg:flex-row items-start lg:items-center lg:my-none">
             <nuxt-link
               to="/shop"
-              class="inline-block text-sm px-4 lg:mr-4 py-2 leading-none border rounded hover:border-blue-500 hover:text-white hover:bg-blue-500 mt-4 lg:mt-0"
+              tag="div"
+              class="inline-block text-sm px-4 lg:mr-4 py-2 leading-none mt-4 lg:mt-0 cta cursor-pointer"
               @click.native="closeMenu"
             >Tickets kaufen</nuxt-link>
-            <div class="flex mt-4 lg:mt-0">
-              <a href="https://instagram.com/houseofengineers" class="social-icons mr-4">
-                <img
-                  style="height: 24px; width: auto;"
-                  src="~/assets/instagram-seeklogo.com.svg"
-                  alt="Instagram"
-                />
-              </a>
-              <a
-                href="https://www.facebook.com/House-of-Engineers-Maturaball-HTL-Wels-110862703604570"
-                class="social-icons"
-              >
-                <img
-                  style="height: 24px; width: auto;"
-                  src="~/assets/f_logo_RGB-Grey_58.png"
-                  alt="Facebook"
-                />
-              </a>
-            </div>
           </div>
         </div>
       </nav>
@@ -116,7 +78,8 @@
     <main class="layout">
       <nuxt />
     </main>
-    <footer class="bg-dark mt-24 lg:py-6">
+    <hr />
+    <footer class="mt-16 lg:pb-16">
       <div class="layout flex flex-col lg:flex-row">
         <div class="w-full lg:w-1/3 p-4 my-auto">
           <img src="~/assets/logo.png" width="160px" />
@@ -184,6 +147,10 @@ export default {
 </script>
 
 <style>
+:root {
+  --dark: #0e152f;
+  --yellow: #f5d50b;
+}
 html {
   scroll-behavior: smooth;
 }
@@ -193,13 +160,13 @@ body {
   margin: 0;
   padding: 0;
   line-height: 1.5;
-  background: #313439;
+  background: var(--dark);
 }
 .bg-dark {
-  background: #292a2e;
+  background: var(--dark);
 }
 .bg-surface {
-  background: #313439;
+  background: var(--dark);
 }
 .layout {
   max-width: 1200px;
@@ -208,8 +175,13 @@ body {
   padding-right: 20px;
 }
 
-a:hover {
-  color: #f5d50b;
+.cta {
+  color: var(--dark);
+  background: var(--yellow);
+  font-size: 14px;
+  font-weight: 500;
+  padding: 12px 18px;
+  box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.15);
 }
 
 .animate {

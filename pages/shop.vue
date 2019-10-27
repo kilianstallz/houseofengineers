@@ -20,17 +20,31 @@
           <div class="flex flex-col items-center">
             <p
               style="width: 270px;"
-              v-if="!shipping"
               class="text-center"
             >Karten bei Mitglieder des Ballkommitees auslösen</p>
             <div class="text-gray-600">oder</div>
 
             <div class="flex align-center" style="width: 270px;">
-              <input type="checkbox" v-model="shipping" class="mr-4 my-auto" />
+              <input
+                type="checkbox"
+                v-model="shipping"
+                class="mr-4 my-auto"
+                @click="reserve = false"
+              />
               <p class="my-auto">
-                Ich möchte meine Karte
+                Ich möchte meine Karte(n)
                 per Post erhalten (+2€ versand)
               </p>
+            </div>
+            <div class="text-gray-600">oder</div>
+            <div class="flex align-center" style="width: 270px;">
+              <input
+                type="checkbox"
+                v-model="reserve"
+                class="mr-4 my-auto"
+                @click="shipping = false"
+              />
+              <p class="my-auto">Meine Karte(n) beim Eingang am Ballabend hinterlegen (+1€ Gebühr)</p>
             </div>
           </div>
           <div class="bg-gray-400 my-4" style="width: 270px; height: 1px;"></div>
@@ -127,6 +141,7 @@ export default {
   data: () => ({
     anzahl: null,
     shipping: false,
+    reserve: false,
     agb: false,
     vorname: null,
     nachname: null,
@@ -139,7 +154,7 @@ export default {
   computed: {
     summe() {
       if (this.anzahl > 0) {
-        return this.anzahl * 17 + (this.shipping ? 2 : 0)
+        return this.anzahl * 17 + (this.shipping ? 2 : this.reserve ? 1 : 0)
       } else return 0
     },
     formValid() {
@@ -154,8 +169,8 @@ export default {
     }
   },
   mounted() {
-    stripe = window.Stripe('pk_live_YGkWsACbT1GwMiUVE0Tv0AlA00aZ4j988F')
-    // stripe = window.Stripe('pk_test_0A12MlGA5KnFlgyzLb25KcGY00XphznvXd')
+    // stripe = window.Stripe('pk_live_YGkWsACbT1GwMiUVE0Tv0AlA00aZ4j988F')
+    stripe = window.Stripe('pk_test_0A12MlGA5KnFlgyzLb25KcGY00XphznvXd')
     this.mount()
   },
   methods: {
@@ -193,6 +208,7 @@ export default {
         },
         metadata: {
           shipping: this.shipping,
+          reserve: this.reserve,
           anzahl: this.anzahl
         },
         mandate: {
