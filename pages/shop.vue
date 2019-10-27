@@ -169,8 +169,8 @@ export default {
     }
   },
   mounted() {
-    // stripe = window.Stripe('pk_live_YGkWsACbT1GwMiUVE0Tv0AlA00aZ4j988F')
-    stripe = window.Stripe('pk_test_0A12MlGA5KnFlgyzLb25KcGY00XphznvXd')
+    stripe = window.Stripe('pk_live_YGkWsACbT1GwMiUVE0Tv0AlA00aZ4j988F')
+    // stripe = window.Stripe('pk_test_0A12MlGA5KnFlgyzLb25KcGY00XphznvXd')
     this.mount()
   },
   methods: {
