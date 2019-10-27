@@ -24,7 +24,7 @@
             >Karten bei Mitglieder des Ballkommitees auslösen</p>
             <div class="text-gray-600">oder</div>
 
-            <div class="flex align-center" style="width: 270px;">
+            <!-- <div class="flex align-center" style="width: 270px;">
               <input
                 type="checkbox"
                 v-model="shipping"
@@ -36,7 +36,7 @@
                 per Post erhalten (+2€ versand)
               </p>
             </div>
-            <div class="text-gray-600">oder</div>
+            <div class="text-gray-600">oder</div> -->
             <div class="flex align-center" style="width: 270px;">
               <input
                 type="checkbox"
