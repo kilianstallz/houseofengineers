@@ -25,7 +25,7 @@
 
           <nuxt-link
             to="/shop"
-            class="inline-block text-sm px-4 py-2 leading-none"
+            class="inline-block cta text-sm px-4 py-2 leading-none"
             @click.native="closeMenu"
           >Tickets kaufen</nuxt-link>
         </div>
