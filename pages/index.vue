@@ -54,13 +54,13 @@
     <section id="media" class="pt-12 lg:pt-32">
       <h2 style="margin-bottom: 72px;" class="text-4xl text-white text-center">Media</h2>
 
-      <div style="min-height: 40vh" class="flex flex-col md:flex-row -mx-4 my-12">
+      <div style="min-height: 40vh" class="flex flex-col lg:flex-row -mx-4 my-12">
         <div class="w-full flex lg:w-1/2 p-2">
           <blockquote
-            class="instagram-media"
+            class="instagram-media mx-auto"
             data-instgrm-permalink="https://www.instagram.com/p/B4Fe6W2iIHt/?utm_source=ig_embed&amp;utm_campaign=loading"
             data-instgrm-version="12"
-            style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"
+            style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: auto; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"
           >
             <div style="padding:16px;">
               <a
@@ -165,7 +165,7 @@
           </blockquote>
           <script async src="//www.instagram.com/embed.js"></script>
         </div>
-        <div class="w-full lg:w-1/2 p-2">
+        <div class="w-full mx-auto lg:w-1/2 p-2">
           <iframe
             src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fzwisl%2Fvideos%2F2464352783656779%2F%3Facontext%3D%257B%2522action_history%2522%253A[%257B%2522mechanism%2522%253A%2522recent_posts_card%2522%252C%2522surface%2522%253A%2522permalink%2522%252C%2522extra_data%2522%253A%2522[]%2522%257D%252C%257B%2522surface%2522%253A%2522permalink%2522%252C%2522mechanism%2522%253A%2522recent_posts_card%2522%252C%2522extra_data%2522%253A%2522[]%2522%257D]%257D&width=500&show_text=true&appId=381791115253620&height=432"
             width="500"
@@ -175,9 +175,19 @@
             frameborder="0"
             allowtransparency="true"
             allow="encrypted-media"
+            class="mx-auto"
           ></iframe>
         </div>
       </div>
+    </section>
+    <section id="shuttle" class="py-24 pt-32">
+      <h3 class="text-white">Melde dich für unseren Shuttle-Service an!</h3>
+      <p class="text-white">Schnelle & sichere Hin- & Rückreise garantiert! Jetzt schnell anmelden:</p>
+      <nuxt-link
+        to="/shuttle"
+        tag="button"
+        class="cta border-0 rounded-none shadow-md"
+      >Jetzt anmelden</nuxt-link>
     </section>
     <section id="travel" style="min-height: 60vh;" class="py-24 pt-32">
       <div class="flex flex-col lg:flex-row mb-12 text-right">

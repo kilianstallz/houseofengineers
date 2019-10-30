@@ -54,6 +54,11 @@
               @click.native="closeMenu"
             >Media</nuxt-link>
             <nuxt-link
+              to="/shuttle"
+              class="block mt-4 lg:inline-block lg:mt-0 hover:text-blue-500 mr-4"
+              @click.native="closeMenu"
+            >Shuttle-Service</nuxt-link>
+            <nuxt-link
               to="/#travel"
               class="block mt-4 lg:inline-block lg:mt-0 hover:text-blue-500 mr-4"
               @click.native="closeMenu"
@@ -88,8 +93,9 @@
           <ul class="text-white leading-relaxed list-none">
             <nuxt-link tag="li" to="/">Home</nuxt-link>
             <!-- <nuxt-link tag="li" to="/cashless">Cashless</nuxt-link> -->
-            <nuxt-link tag="li" to="/#travel">Anreise</nuxt-link>
+            <nuxt-link tag="li" to="/shuttle">Shuttle-Service</nuxt-link>
             <nuxt-link tag="li" to="/#media">Media</nuxt-link>
+            <nuxt-link tag="li" to="/#travel">Anreise</nuxt-link>
             <nuxt-link tag="li" to="/impressum">Impressum</nuxt-link>
             <nuxt-link tag="li" to="/agb">AGB</nuxt-link>
             <nuxt-link tag="li" to="/shop">Tickets kaufen</nuxt-link>
