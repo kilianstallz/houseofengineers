@@ -168,36 +168,38 @@
         <div class="w-full mx-auto lg:w-1/2 p-2">
           <iframe
             src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fzwisl%2Fvideos%2F2464352783656779%2F%3Facontext%3D%257B%2522action_history%2522%253A[%257B%2522mechanism%2522%253A%2522recent_posts_card%2522%252C%2522surface%2522%253A%2522permalink%2522%252C%2522extra_data%2522%253A%2522[]%2522%257D%252C%257B%2522surface%2522%253A%2522permalink%2522%252C%2522mechanism%2522%253A%2522recent_posts_card%2522%252C%2522extra_data%2522%253A%2522[]%2522%257D]%257D&width=500&show_text=true&appId=381791115253620&height=432"
-            width="500"
             height="432"
             style="border:none;overflow:hidden"
             scrolling="no"
             frameborder="0"
             allowtransparency="true"
             allow="encrypted-media"
-            class="mx-auto"
+            class="mx-auto w-full"
           ></iframe>
         </div>
       </div>
     </section>
-    <section id="shuttle" class="py-24 pt-32">
-      <h3 class="text-white">Melde dich für unseren Shuttle-Service an!</h3>
-      <p class="text-white">Schnelle & sichere Hin- & Rückreise garantiert! Jetzt schnell anmelden:</p>
-      <nuxt-link
-        to="/shuttle"
-        tag="button"
-        class="cta border-0 rounded-none shadow-md"
-      >Jetzt anmelden</nuxt-link>
-    </section>
     <section id="travel" style="min-height: 60vh;" class="py-24 pt-32">
-      <div class="flex flex-col lg:flex-row mb-12 text-right">
-        <h2 class="text-4xl text-white">Anreise</h2>
-        <p class="text-gray-400 text-right w-full">
+      <h2 class="text-4xl text-white">Anreise</h2>
+      <div class="flex flex-col lg:flex-row mb-12 text-left">
+        <p class="text-gray-400 text-left w-full">
           Wir arbeiten daran, für eine noch bequemere
           <br />An- & Abreise
           einen Shuttleservice
           <br />zu organisieren.
         </p>
+      </div>
+      <div class="text-center mb-8">
+        <h3 class="text-2xl text-white font-medium py-4">Shuttle-Service</h3>
+        <h3 class="text-white">Melde dich für unseren Shuttle-Service an!</h3>
+        <p
+          class="text-white pb-6"
+        >Schnelle & sichere Hin- & Rückreise garantiert! Jetzt schnell anmelden:</p>
+        <nuxt-link
+          to="/shuttle"
+          tag="button"
+          class="cta border-0 rounded-none shadow-md"
+        >Jetzt anmelden</nuxt-link>
       </div>
       <div class="flex items-end flex-col lg:flex-row">
         <div class="w-full my-6 lg:mx-2">
