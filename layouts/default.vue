@@ -98,6 +98,9 @@
             <nuxt-link tag="li" to="/#travel">Anreise</nuxt-link>
             <nuxt-link tag="li" to="/impressum">Impressum</nuxt-link>
             <nuxt-link tag="li" to="/agb">AGB</nuxt-link>
+            <li>
+              <a href="static/muttizettel.pdf" download>Einlass U16</a>
+            </li>
             <nuxt-link tag="li" to="/shop">Tickets kaufen</nuxt-link>
           </ul>
         </div>
